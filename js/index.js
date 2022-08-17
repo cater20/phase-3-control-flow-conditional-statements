@@ -20,7 +20,7 @@ function adminLogin(username, password) {
 function howsTheWeather(temperature) {
   let response;
   if (temperature < 40) {
-    response = "brisk";
+    return "brisk";
   } else if (temperature >= 40 && temperature <= 65) {
     response = "a little chilly";
   } else if (temperature > 85) {
